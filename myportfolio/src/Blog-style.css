@@ -8,15 +8,23 @@ nav > a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
-    background: transparent;
+    background: white !important ;
     padding: 20px; 
-    text-align: center;
+    text-align: inherit;
     border: 2px solid white;
 }
+.has-border {
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0) !important;
+    background: none;
+    padding: 20px; 
+  }
+  
 h1{
-    color:white;
+    color: inherit ;
     text-align: center ;
     position: relative ;
+
 }
 body{
     color: black ;
@@ -28,7 +36,8 @@ article{ margin: 20px 100px 20px ;
     color: black ; 
     text-align: center ;
     background-color: grey ;
-    font-size: 10px ;}
+    font-size: 15px;
+}
 
 article:first-letter {
     font-size: 100%;
@@ -43,7 +52,7 @@ h2{
     background-color: red
 }
 h3{
-    font-size: 15px !important ;
+    font-size: 15px;
     color: white ;
     background-color: black ;
 }
