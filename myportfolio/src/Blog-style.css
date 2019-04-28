@@ -1,3 +1,18 @@
+nav{
+    text-align: center;
+}
+nav > a {
+    height: 10%; 
+    width: 15%;
+    color: rgb(211, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px; 
+    text-align: center;
+    border: 2px solid white;
+}
 h1{
     color:white;
     text-align: center ;
@@ -9,17 +24,32 @@ body{
     background-image: url(./Blog_background.png) ;
     background-size: 100% 100%
 }
-article{
-    margin: 20px 100px 20px ;
+article{ margin: 20px 100px 20px ;
     color: black ; 
     text-align: center ;
     background-color: grey ;
+    font-size: 10px ;}
 
+article:first-letter {
+    font-size: 100%;
 }
-
+article:hover:first-letter {
+    color: white;
+    font-size: 150% !important;
+}
+h2{
+    font-size: 25px ;
+    color: black ;
+    background-color: red
+}
+h3{
+    font-size: 15px !important ;
+    color: white ;
+    background-color: black ;
+}
 footer{
     margin: 20px 100px 20px;
     color: black ;
     font-size: 20px ;
-    text-align: center ;
+    text-align: right ;
 }
