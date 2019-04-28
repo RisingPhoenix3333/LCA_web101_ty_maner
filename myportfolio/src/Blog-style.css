@@ -1,6 +1,7 @@
 h1{
     color:white;
     text-align: center ;
+    position: relative ;
 }
 body{
     color: black ;
@@ -20,5 +21,5 @@ footer{
     margin: 20px 100px 20px;
     color: black ;
     font-size: 20px ;
-    text-align: right
+    text-align: right ;
 }
