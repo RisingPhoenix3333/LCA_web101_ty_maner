@@ -1,22 +1,24 @@
 h1{
-    margin: 6% auto ;
-    color: red;
-    text-align: center
+    color:white;
+    text-align: center ;
 }
 body{
     color: black ;
     margin: 6% auto ;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
-    background-repeat: repeat-y repeat-x
+    background-image: url(./Blog_background.png) ;
+    background-size: 100% 100%
 }
 article{
-    margin: 1% auto ;
-    color: black
+    margin: 20px 100px 20px ;
+    color: black ; 
+    text-align: center ;
+    background-color: grey ;
 
 }
 
 footer{
-    margin: 2% auto ;
+    margin: 20px 100px 20px;
     color: black ;
     font-size: 20px ;
+    text-align: right
 }
