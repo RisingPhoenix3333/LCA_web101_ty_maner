@@ -10,11 +10,12 @@
   width: 100%;
 }
  .has-border {
-border-radius: 25px;
+ border-radius: 25px;
  border: 2px solid rgb(0, 0, 0);
  background: none;
  padding: 20px;
-  }
+ margin: 0% 2.5% 3% 3%;
+}
  a{
   margin: auto;
   height: 10%; 
@@ -37,6 +38,13 @@ h2{
   font-size: 20px;
   text-align: center;
   font-style: bold ;
+  margin: 30px 20px 50px 20px ;
+}
+h3{
+  font-size: 20px ;
+  text-align: center;
+  font-style: bold;
+  margin: 10px 20px 30px 20px;
 }
 p{
   font-size: 15px;
@@ -45,6 +53,6 @@ p{
 }
 aside{
   float: right;
-  margin: 4% auto;
+  margin: 0% 3% 0% 1.5%;
   width: 30%;
 }
