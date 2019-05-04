@@ -104,6 +104,7 @@ body {
     width: 31%;
     height: 80%;
     margin: 3% 10%;
+    position: absolute;
   }
   header {
     display: grid;
