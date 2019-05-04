@@ -89,26 +89,42 @@ body {
     letter-spacing: 8px;
     font-style: bold;
   }
-  @media only screen and (min-width: 414px) and (max-width: 767px) {
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(./portfoliobackground.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+ @media (max-width: 420px) {
+
+   .logo {
+    width: 31%;
+    height: 80%;
+    margin: 3% 1%;
   }
   nav > a {
-    margin: 2% 2%;
+    margin: 1% .25% ;
     height: 7%; 
     width: 12.5%;
     color: rgb(211, 21, 21);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     border-radius: 15px;
-    background: white !important ;
+    background: white ;
     padding: 5px; 
     text-align: center;
     border: 2px solid white ;
   }
-
+  #placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    grid-column: 2/3;
+    margin: auto auto 5%
+  }
+  h1 {
+    color:white;
+    grid-column: 2/3;
+    border-bottom: none;
+    margin: auto auto 1%;
+  }
+  
+  h2 {
+    grid-column: 2/3;
+    
+  }
 }
