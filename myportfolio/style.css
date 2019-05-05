@@ -89,6 +89,8 @@ body {
     letter-spacing: 8px;
     font-style: bold;
   }
+  /*Mobile up to iPhone Plus size*/
+
  @media (max-width: 420px) and (min-width:200px) {
 
    .logo {
@@ -144,6 +146,7 @@ body {
   }
 
 }
+/* tablet view */
 
 @media (min-width: 700px) and (max-width: 850px) {
   #placeholder {
