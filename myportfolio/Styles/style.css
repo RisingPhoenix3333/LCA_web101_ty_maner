@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./portfoliobackground.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: repeat-y;
+  }
+  
+  .logo {
+    width: 31%;
+    height: 80%;
+    margin: 3% 10%;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+  
+  main {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%; 
+  }
+  
+  nav > a {
+    margin: 5%  5% 3%;
+    height: 10%; 
+    width: 15%;
+    color: rgb(211, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: white !important ;
+    padding: 20px; 
+    text-align: center;
+    border: 2px solid white ;
+  }
+  
+  .has-border {
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    background: none;
+    padding: 20px; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  #placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 15% auto;
+    grid-column: 2/3;
+  }
+  
+  h1 {
+    color:white;
+    grid-column: 2/3;
+    margin: 3% auto;
+    border-bottom: 2px solid rgb(255, 255, 255);;
+  }
+  
+  h2 {
+    grid-column: 2/3;
+    margin: 3% auto;
+  }
+  
+  button {
+    grid-column: 2/3;
+    margin: 3% auto;
+    width: 70%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px; 
+    padding-bottom: 5%;
+    text-align: center;
+    color: red;
+    letter-spacing: 8px;
+    font-style: bold;
+  }
+  /*Mobile up to iPhone Plus size*/
+
+ @media (max-width: 420px) and (min-width:200px) {
+
+   .logo {
+    width: 31%;
+    height: 80%;
+    margin: 3% 1%;
+  }
+  nav > a {
+    margin: 1% .25% ;
+    height: 7%; 
+    width: 12.5%;
+    color: rgb(211, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 15px;
+    background: white ;
+    padding: 5px; 
+    text-align: center;
+    border: 2px solid white ;
+  }
+  #placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    grid-column: 2/3;
+    margin: auto auto 5%
+  }
+  h1 {
+    color:white;
+    grid-column: 2/3;
+    border-bottom: none;
+    margin: auto auto 1%;
+  }
+  
+  h2 {
+    grid-column: 2/3;
+    
+  }
+  button {
+    grid-column: 2/3;
+    margin: 3% auto;
+    width: 85%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 5px;
+    text-align: center;
+    color: red;
+    letter-spacing: 4px ;
+    font-style: bold;
+  }
+
+}
+/* tablet view */
+
+@media (min-width: 700px) and (max-width: 850px) {
+  #placeholder {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15% auto;
+    grid-column: 2/3;
+  }
+  button {
+    grid-column: 2/3;
+    margin: 1.5% auto;
+    width: 85%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: white;
+    padding: 10%;
+    text-align: center;
+    color: red;
+    letter-spacing: 4px;
+    font-style: bold;
+ 
+  }
+
+}
