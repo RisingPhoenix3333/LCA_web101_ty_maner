@@ -1,0 +1,23 @@
+body{
+    width:840px;
+    margin: 0 auto;
+}
+main {
+    background-image: url(/myportfolio/src/images/nasapic.jpg);
+    margin: 0 auto;
+    color: white;
+    height: 450px;
+}
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+article{
+    width: 270px;
+    height: 374px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
