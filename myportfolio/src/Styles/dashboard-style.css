@@ -15,7 +15,7 @@
     height: 100%;
     width: 100%;
     justify-content: center;
-    margin: 10% 10%;
+    margin: 10% 10% ;
   }
 .calculator {
   grid-area: calculator;
@@ -34,7 +34,7 @@
   border-right: 2px solid black;
   border-bottom: 2px solid black;
   padding: 0px 0px 35px;
-  }
+}
 .calc-bn{
     grid-column: 1 / 4;
     grid-row: 1 / 5; 
