@@ -13,6 +13,7 @@ section {
     height: 324px;
     flex-direction: row;
     justify-content: space-between;
+    background-color: grey;
 }
 article{
     width: 270px;
