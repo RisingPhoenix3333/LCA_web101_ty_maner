@@ -7,6 +7,7 @@ main {
     margin: 0 auto;
     color: white;
     height: 450px;
+    background-size: 99%;
 }
 h1{
     text-align: center;
@@ -22,7 +23,7 @@ section {
 }
 article{
     font-size: 15px;
-    font-style: bold;
+    font-style: normal;
 }
 .box{
     height: 25px;
