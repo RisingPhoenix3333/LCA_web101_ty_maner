@@ -6,6 +6,7 @@
     width: 99%;
     height: 99%;
     background-size: 99%;
+    background-color: white;
   }
   .container {
     display: grid; 
