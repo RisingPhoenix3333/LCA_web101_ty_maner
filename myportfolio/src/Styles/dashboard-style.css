@@ -4,6 +4,7 @@
   body{
     background-image: url(./images/Dashboardpic.jpg);
     width: 99%;
+    background-size: 99%;
   }
   .container {
     display: grid; 
