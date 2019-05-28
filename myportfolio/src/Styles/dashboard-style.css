@@ -48,8 +48,25 @@
     flex-wrap: wrap;
     padding: 10%;
     justify-content: space-around;
+    align-content: space-around;
     margin: 0px auto;
     width: 50%;
+}
+.column_1{
+  display: flex;
+  flex-direction: row;
+}
+.column_2{
+  display: flex;
+  flex-direction: row;
+}
+.column_3{
+  display: flex;
+  flex-direction: row;
+}
+.column_4{
+  display: flex;
+  flex-direction: row;
 }
 .calc-bn-func{
    grid-column: 4 / 7;
