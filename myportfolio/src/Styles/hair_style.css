@@ -1,0 +1,8 @@
+body{
+    background-image: url(./images/hair_background.jpg);
+    background-size: 99%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
