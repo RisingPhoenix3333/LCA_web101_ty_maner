@@ -70,3 +70,41 @@ h3{
     justify-content: center;
     flex-direction: column;
 }
+@media (max-width: 420px) {
+    nav{
+        font-size: 10px;
+    }
+    }
+    body{
+        background-size: 500%;
+    }
+    .Logo{
+        height: 25%;
+        width: 25%;
+    }
+    main{
+        font-size: 12.5px;
+        
+    }
+    .barbershop_pic{
+        height: 150px;
+        width: 150px;
+        margin: 5% auto 5%;
+    }
+    .about{
+        justify-content: center;
+        width: 420px;
+
+    }
+    .section{
+        background-color: grey;
+    }
+    .box_1{
+        width: 175px;
+    }
+    .box_2{
+        height: 25px;
+        width: 182.5px;
+    }
+
+}
