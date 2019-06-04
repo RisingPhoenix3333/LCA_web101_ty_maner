@@ -74,7 +74,6 @@ h3{
     nav{
         font-size: 10px;
     }
-    }
     body{
         background-size: 500%;
     }
@@ -93,11 +92,14 @@ h3{
     }
     .about{
         justify-content: center;
-        width: 420px;
+        width: 100%;
+        text-align: center;
 
     }
     .section{
         background-color: grey;
+        justify-content: center;
+        width: 99%
     }
     .box_1{
         width: 175px;
