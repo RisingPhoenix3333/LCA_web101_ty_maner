@@ -119,7 +119,7 @@ background-color: aliceblue;
   }
   .calculator{
     height: 50%;
-    width: 85%;
+    width: 85% !important;
     padding: 2.5% 0% ;
   }
   .calc-bn{
