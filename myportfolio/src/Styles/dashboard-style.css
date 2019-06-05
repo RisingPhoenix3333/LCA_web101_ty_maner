@@ -1,110 +1,151 @@
-  main {
-    margin: 5%;
-  }
-  body{
-    background-image: url(images/Dashboardpic.jpg);
-    width: 99%;
-    height: 99%;
-    background-size: 99%;
-    background-color: white;
-    margin: 0 auto;
-  }
-  .container {
-    display: grid; 
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "greeting  greeting"
-    "todo      clock"
-    "todo      calculator";
-    height: 100%;
-    width: 100% ;
-    justify-content: center;
-    margin: 10% 10% ;
-  }
+main {
+  margin: 5%;
+}
+body{
+  background-image: url(images/Dashboardpic.jpg);
+  width: 99%;
+  height: 99%;
+  background-size: 99%;
+  background-color: white;
+  margin: 0 auto;
+}
+.container {
+  display: grid; 
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "greeting  greeting"
+  "todo      clock"
+  "todo      calculator";
+  height: 100%;
+  width: 100% ;
+  justify-content: center;
+  margin: 10% 10% ;
+}
 .calculator {
-  grid-area: calculator;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-  "calcnum calcnum calcnum display display display"
-  "calcnum calcnum calcnum calcfunc calcfunc calcfunc"
-  "calcnum calcnum calcnum calcfunc calcfunc calcfunc"
-  "calcnum calcnum calcnum calcfunc calcfunc calcfunc";
-  width: 35%;
-  height: 50%;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  padding: 0px 0px 35px;
+grid-area: calculator;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-areas:
+"calcnum calcnum calcnum display display display"
+"calcnum calcnum calcnum calcfunc calcfunc calcfunc"
+"calcnum calcnum calcnum calcfunc calcfunc calcfunc"
+"calcnum calcnum calcnum calcfunc calcfunc calcfunc";
+width: 35%;
+height: 50%;
+border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-bottom: 2px solid black;
+padding: 0px 0px 35px;
 }
 .calc-bn{
-    grid-column: 1 / 4;
-    grid-row: 1 / 5; 
-    display: flex;
-    grid-area: calcnum;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10%;
-    justify-content: space-around;
-    align-content: space-around;
-    margin: 0px auto;
-    width: 50%;
+  grid-column: 1 / 4;
+  grid-row: 1 / 5; 
+  display: flex;
+  grid-area: calcnum;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10%;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 0px auto;
+  width: 50%;
 }
 .column_1{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 .column_2{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 .column_3{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 .column_4{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 .calc-bn-func{
-   grid-column: 4 / 7;
-    grid-row: 3 / 5;
-   grid-area: calcfunc;
-   display: flex;
-   flex-direction: column-reverse;
-   width: 50%;
-   flex-wrap: wrap;
-   margin: 1% 0%;
-   justify-content: center;
-   align-content: center;
-   padding: 5%;
-   
+ grid-column: 4 / 7;
+  grid-row: 3 / 5;
+ grid-area: calcfunc;
+ display: flex;
+ flex-direction: column-reverse;
+ width: 50%;
+ flex-wrap: wrap;
+ margin: 1% 0%;
+ justify-content: center;
+ align-content: center;
+ padding: 5%;
+ 
 }
 .display{
-    grid-column: 4 / 7;
-    grid-row: 1 / 3;
-    grid-area: display;
-    justify-content: flex-end;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-  }
+  grid-column: 4 / 7;
+  grid-row: 1 / 3;
+  grid-area: display;
+  justify-content: flex-end;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
 .todo {
-  grid-area: todo;
-  width: 75%;
+grid-area: todo;
+width: 75%;
 }
 .greeting {
-  grid-area: greeting;
-  display: flex;
-  justify-content: flex-start;
+grid-area: greeting;
+display: flex;
+justify-content: flex-start;
 }
 .clock {
-  grid-area: clock;
-  display: flex;
-  flex-wrap: wrap;
-  width: 30%;
-  height: 100%;
-  background-color: aliceblue;
+grid-area: clock;
+display: flex;
+flex-wrap: wrap;
+width: 30%;
+height: 100%;
+background-color: aliceblue;
+}
+@media (max-width: 420px) {
+  .todo{
+    font-size: 10px;
+  }
+  .clock{
+    font-size: 7.5px;
+    height: 50%;
+    width: 40%;
+  }
+  .calculator{
+    height: 50%;
+    width: 85% !important;
+    padding: 2.5% 0% ;
+  }
+  .calc-bn{
+    padding: 10%;
+    width: 40%;
+    height: 60%;
+    justify-self: center;
+    align-items: center;
+  }
+  .calc-bn-func{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0% auto auto;
+    height: 40%;
+    
+  }
+  .display{
+    height: 25%;
+  }
+}
+@media (max-width: 790px) {
+  .calculator{
+    width: 45%;
+    height: 42.5%;
+  }
+  .clock{
+    width: 45%;
+  }
 }
