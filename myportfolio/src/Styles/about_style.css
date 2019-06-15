@@ -3,4 +3,16 @@ body{
 }
 main{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.On-going-projects{
+    width: 25%;
+    margin: auto;
+}
+@media (max-width:420px){
+main{
+    padding: 10%;
+}
 }
