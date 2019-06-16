@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .square {
+     height: 50px;
+     width: 50px;
+     margin: auto;
+     transition: .5s;
+     }
+ .blue{
+     background-color: blue;
+ }
+ .black{
+     background-color: black;
+ }
+.yellow{
+     background-color: yellow;
+ }
+ .red{
+     background-color: red;
+ }
+ .grey{
+     background-color: grey;
+ }
+ .purple{
+     background-color: purple;
+ }
+ .brown{
+     background-color: brown;
+ }
+ .orange{
+     background-color: orange;
+ }
+ .white{
+     background-color: cornsilk;
+ }
+ .darkblue{
+     background-color: darkblue;
+ }
+ .darkgreen{
+     background-color: darkgreen;
+ }
+ .pink{
+     background-color: pink;
+ }
+#squares:hover .square:nth-of-type(odd){
+    height: 100px;
+    width: 100px;
+    transition: 4s;
+    transform: translate(300px) rotate(360deg);
+}
+#squares:hover .square:nth-of-type(even){
+    height: 25px;
+    width: 25px;
+    transition: 2s;
+    transform: translate(-300px) rotate(-360deg);
+}
+/*thank god for w3schools*/
