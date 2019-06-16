@@ -1,0 +1,36 @@
+.section_1{
+    background-color: skyblue;
+    height:200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 1% auto;
+    align-items: center;
+}
+.section_2{
+    display: flex;
+    background-color: darkgrey;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    align-items: center;
+}
+.bluebox{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    background-color: blue;
+    margin: auto;
+}
+.orangebox{
+    height: 30px;
+    width: 150px;
+    background-color: orange;
+    margin: auto;
+}
+.tealbox{
+    height: 30px;
+    width: 150px;
+    background-color: teal;
+    margin: auto;
+}
