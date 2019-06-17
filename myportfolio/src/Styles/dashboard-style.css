@@ -113,6 +113,31 @@ margin: auto;
 #newItemButton{
   display: none;
 }
+p{
+  text-align: center;
+  margin: auto;
+}
+.game{
+  justify-content: center;
+  display: flex;
+}
+#box {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:black;
+    text-align: center;
+    margin:10%;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+
+  }
+#box:hover {
+ background-color: white;
+  }
+
+
 @media (max-width: 420px) {
   .container{
     display: flex;
