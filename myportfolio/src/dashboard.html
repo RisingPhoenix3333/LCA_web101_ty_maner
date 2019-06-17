@@ -4,6 +4,7 @@
 <head>
     <title> Dashboard </title>
     <link rel="stylesheet" href="./Styles/dashboard-style.css">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -56,13 +57,16 @@
                 <h1>Hello, Ty!</h1>
             </div>
             <div class="todo">
-                <h3> To-Do list</h3>
-                <article> -Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repudiandae? Totam possimus nulla, sunt magnam suscipit amet perferendis dignissimos in iste. Voluptatibus sint nisi quasi reiciendis dolore a ducimus ipsam.</article>
-                <article> -Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut corrupti quod rerum velit illum facilis adipisci esse. Corrupti aspernatur aliquam quasi, repellendus laboriosam consectetur ex quos temporibus suscipit aliquid.</article>
-                <article> -Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus! Nesciunt aliquid consequuntur rem distinctio necessitatibus facere quis ducimus odit consequatur perspiciatis. Ea eligendi optio eos sit consectetur provident itaque.</article>
-                <article> -Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repudiandae? Totam possimus nulla, sunt magnam suscipit amet perferendis dignissimos in iste. Voluptatibus sint nisi quasi reiciendis dolore a ducimus ipsam.</article>
-                <article> -Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut corrupti quod rerum velit illum facilis adipisci esse. Corrupti aspernatur aliquam quasi, repellendus laboriosam consectetur ex quos temporibus suscipit aliquid.</article>
-                <article> -Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus! Nesciunt aliquid consequuntur rem distinctio necessitatibus facere quis ducimus odit consequatur perspiciatis. Ea eligendi optio eos sit consectetur provident itaque.</article>
+                            <h2>To Do</h2>
+                            <ul>
+                                <li class="item">go grocery shopping</li>
+                            </ul>
+                            <div id="newItemButton"><button href="#">new item</button></div>
+                        <form id="newItemForm">
+                          <input type="text" id="itemField" placeholder="Item" />
+                          <input type="submit" id="add" value="add" />
+                        </form>
+                        </div>
             </div>
             <div class="clock">
                 <h2>February</h2>
@@ -70,3 +74,5 @@
                 <article> 18:00     Today, February 18th</article>
             </div>
         </div>
+        <script src= "./scripts/jQuery-3.4.1.js"></script>
+        <script src="./scripts/todo.js"></script>

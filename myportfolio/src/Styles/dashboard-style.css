@@ -94,6 +94,7 @@ flex-direction: row;
 .todo {
 grid-area: todo;
 width: 75%;
+margin: auto;
 }
 .greeting {
 grid-area: greeting;
@@ -107,10 +108,21 @@ flex-wrap: wrap;
 width: 30%;
 height: 100%;
 background-color: aliceblue;
+margin: auto;
+}
+#newItemButton{
+  display: none;
 }
 @media (max-width: 420px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
   .todo{
     font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
   }
   .clock{
     font-size: 7.5px;
@@ -122,6 +134,7 @@ background-color: aliceblue;
     width: 85% !important;
     padding: 2.5% 0% ;
   }
+
   .calc-bn{
     padding: 10%;
     width: 40%;
@@ -138,7 +151,10 @@ background-color: aliceblue;
   }
   .display{
     height: 25%;
+  
+
   }
+
 }
 @media (max-width: 790px) {
   .calculator{
