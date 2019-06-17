@@ -1,0 +1,21 @@
+.gameBoard{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    margin: 0% 30%;
+ }
+.square{
+    background-color: grey;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    padding: 1%;
+    margin: auto 0%;
+}
+button{
+    width: 10%;
+    height: 40%;
+}
