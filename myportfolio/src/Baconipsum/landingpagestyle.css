@@ -1,19 +1,31 @@
+header{
+    background-color: grey;
+    opacity: .75;
+}
+main{
+    font-family: 'Open Sans', sans-serif;
+}
 .section_1{
     background-color: skyblue;
-    height:200px;
+    height:400px;
+    width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 1% auto;
+    margin: auto;
     align-items: center;
 }
 .section_2{
     display: flex;
     background-color: darkgrey;
     text-align: center;
-    height: 200px;
+    height: 400px;
     padding: 20px;
     align-items: center;
+    
+}
+.bacon{
+    padding: 10%
 }
 .bluebox{
     height: 30px;
@@ -21,16 +33,28 @@
     display: flex;
     background-color: blue;
     margin: auto;
+    border: solid .5px black;
 }
 .orangebox{
     height: 30px;
     width: 150px;
     background-color: orange;
     margin: auto;
+    border: solid .5px black;
 }
 .tealbox{
     height: 30px;
     width: 150px;
     background-color: teal;
     margin: auto;
+    border: solid .5px black;
+}
+@media (max-width: 420px){
+    .section_2{
+        flex-direction: column;
+        height: 700px;
+    }
+    .bacon{
+        padding: 15%;
+    }
 }

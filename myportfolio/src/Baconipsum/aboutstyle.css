@@ -1,0 +1,12 @@
+header{
+    background-color: grey;
+    opacity: .75;
+    margin: 0% auto;
+}
+.section_1{
+    background-color: skyblue;
+    height:400px;
+    width: 100%;
+    text-align: center;
+    margin: 0% auto;
+}
