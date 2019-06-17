@@ -101,6 +101,10 @@ grid-area: greeting;
 display: flex;
 justify-content: flex-start;
 }
+.locater{
+  display: flex;
+  justify-content: center;
+}
 .clock {
 grid-area: clock;
 display: flex;
