@@ -1,0 +1,19 @@
+header{
+    background-color: grey;
+    opacity: .75;
+    margin: 0% auto;
+}
+main{
+    font-family: 'Open Sans', sans-serif;
+}
+.section_1{
+    background-color: teal;
+    text-align: center;
+    margin: 0% auto;
+    padding: 10%;
+}
+@media (max-width: 420px){
+    .section_1{
+        padding: 15%;
+    }
+}
