@@ -74,6 +74,23 @@
                 <article> 18:00     Today, February 18th</article>
             </div>
         </div>
+        <div class=locater>
+                <button onclick="getLocation()">Current Longitude & Latitude</button>
+                <p id="my-coordinates"></p>
+                <script>
+                 var myLocation = document.getElementById("my-coordinates");
+                function getLocation() {
+                  if (navigator.geolocation) {
+                     navigator.geolocation.getCurrentPosition(displayPosition);
+               } else {
+                    myLocation.innerHTML = "Not Available";
+               } 
+            }
+                function displayPosition(position) {
+                myLocation.innerHTML = "Longitude: " + position.coords.longitude + " Latitude: " + position.coords.latitude;
+            }
+                </script>
+              </div>
         <div class="game">
                 <p>Look! its a clicker!</p>
                 <p id="box">Clicks: 0</p>
